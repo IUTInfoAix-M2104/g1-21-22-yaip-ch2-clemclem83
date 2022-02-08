@@ -4,7 +4,7 @@ public class sumproduct { // Save as "sumproduct.java"
 
 public static void main (String[] args) {
 	 // Declare variables
-      int number1, number2, number3;  // The 3 input integers
+      int number1, number2, number3, number4;  // The 3 input integers
       int sum, product, min, max;     // To compute these
 	  
       // Prompt and read inputs as "int"
