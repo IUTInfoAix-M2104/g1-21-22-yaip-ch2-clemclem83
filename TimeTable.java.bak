@@ -1,0 +1,6 @@
+import java.util.Scanner;
+public class TimeTable { // Save as "TimeTable.java"
+public static void main (String [] args) {
+
+}
+}
