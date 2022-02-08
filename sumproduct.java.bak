@@ -35,9 +35,6 @@ public static void main (String[] args) {
       if (number3 < min) {  // Continue for the next item
          min = number3;
       }
-	  if (number4 < min) {
-		  min = number4;
-	  }
       
       // Compute max - similar to min
       max = number1;        // Assume min is the 1st item
@@ -47,9 +44,7 @@ public static void main (String[] args) {
       if (number3 > max) {  // Continue for the next item
          max = number3;
       }
-	  if (number4 > max) {
-		  max = number4;
-	  }
+	  
       // Print results
       System.out.println(" The sum is: " + sum);
 	  System.out.println("The product is: " + product);
