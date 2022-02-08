@@ -4,7 +4,11 @@ public class sumproduct { // Save as "sumproduct.java"
 
 public static void main (String[] args) {
 	 // Declare variables
+<<<<<<< HEAD
       int number1, number2, number3, number4;  // The 3 input integers
+=======
+      int number1, number2, number3;  // The 3 input integers
+>>>>>>> 0e424efbf40c67f3fe145adbafd3dabd56eebd4f
       int sum, product, min, max;     // To compute these
 	  
       // Prompt and read inputs as "int"
@@ -35,9 +39,12 @@ public static void main (String[] args) {
       if (number3 < min) {  // Continue for the next item
          min = number3;
       }
+<<<<<<< HEAD
 	  if (number4 < min) {
 		  min = number4;
 	  }
+=======
+>>>>>>> 0e424efbf40c67f3fe145adbafd3dabd56eebd4f
       
       // Compute max - similar to min
       max = number1;        // Assume min is the 1st item
@@ -47,9 +54,13 @@ public static void main (String[] args) {
       if (number3 > max) {  // Continue for the next item
          max = number3;
       }
+<<<<<<< HEAD
 	  if (number4 > max) {
 		  max = number4;
 	  }
+=======
+	  
+>>>>>>> 0e424efbf40c67f3fe145adbafd3dabd56eebd4f
       // Print results
       System.out.println(" The sum is: " + sum);
 	  System.out.println("The product is: " + product);

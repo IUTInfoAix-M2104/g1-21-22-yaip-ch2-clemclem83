@@ -17,13 +17,22 @@ public static void main (String[] args) {
 	  number3 = in.nextInt();
 	  System.out.print("Enter 4th integer: ");
 	  number4 = in.nextInt();
+<<<<<<< HEAD
 	  System.out.print("Enter 5th integer: ");
+=======
+          System.out.print("Enter 5th integer: ");
+>>>>>>> 0e424efbf40c67f3fe145adbafd3dabd56eebd4f
 	  number5 = in.nextInt();
       in.close();
 	  
       // Compute sum and product
+<<<<<<< HEAD
       sum = number1 + number2 + number3 + number4 + number5;
       product = number1 * number2 * number3 * number4 * number5;
+=======
+      sum = number1 + number2 + number3 + number4;
+      product = number1 * number2 * number3 * number4;
+>>>>>>> 0e424efbf40c67f3fe145adbafd3dabd56eebd4f
 
       // Compute min
       // The "coding pattern" for computing min is:
@@ -37,6 +46,7 @@ public static void main (String[] args) {
       if (number3 < min) {  // Continue for the next item
          min = number3;
       }
+<<<<<<< HEAD
 	  if (number4 < min) {
 		  min = number4;
 	  }
@@ -44,6 +54,14 @@ public static void main (String[] args) {
 		  min = number5;
 	  }
       
+=======
+      if (number4 < min) {
+         min = number4;
+      }
+      if (number5 < min) {
+         min = number5;
+      }
+>>>>>>> 0e424efbf40c67f3fe145adbafd3dabd56eebd4f
       // Compute max - similar to min
       max = number1;        // Assume min is the 1st item
       if (number2 > max) {  // Check if the 2nd item is smaller than current min
@@ -52,12 +70,21 @@ public static void main (String[] args) {
       if (number3 > max) {  // Continue for the next item
          max = number3;
       }
+<<<<<<< HEAD
 	  if (number4 > max) {
 		  max = number4;
 	  }
 	  if (number5 > max) {
 		  max = number5;
 	  }
+=======
+      if (number4 > max) {
+         max = number4;
+      }
+      if (number4 > max) {
+         max = number5;
+      }
+>>>>>>> 0e424efbf40c67f3fe145adbafd3dabd56eebd4f
       // Print results
       System.out.println(" The sum is: " + sum);
 	  System.out.println("The product is: " + product);
